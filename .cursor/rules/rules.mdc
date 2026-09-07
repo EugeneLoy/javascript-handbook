@@ -1,0 +1,61 @@
+---
+description:
+globs:
+alwaysApply: true
+---
+
+All .md files should use GitHub Flavored Markdown (GFM).
+
+All text in .md files is meant for ukrainian school students and should use ukrainian language.
+
+All text meassages that are printed in code examples should use ukrainian language.
+
+All .md files are written as short articles, explaining some aspect of JavaScript programming language.
+
+Top level headings of every .md file should match it's filename.
+
+When describing new concept, give short and concise reason why and how this concept can be used.
+
+When appropriate, code examples should be followed by execution results.
+
+Code examples should use english names for variables and functions.
+
+Style and terminology should be consistent across all .md files.
+
+Refer to "output" as "виведення" in ukrainian.
+
+`Залежності.md` Contains mermaid chart that visualizes dependencies between articles. Arrows point from dependent article toward article it depends on. The more independent article is - the higher it is placed on the chart. The more dependencies article has - the lower it is on the chart. All articles are mentioned in `README.md`. Every article lists all articles it depends on at the the top of the article.
+
+Blocks of code that contain JavaScript code should specify language for syntax highlighting.
+
+Code examples should be simple yet meaningful (ideally, related to real life situations).
+
+Refer to flow diagram as "блок-схема".
+
+Generate flow diagrams only when explicitly asked.
+
+In flow diagrams use oval nodes for "start" and "end".
+
+<!-- In flow diagrams combine `input()` and relevant `print()` command (with prompt) into one parallelogram node. -->
+
+`exercises` folder contains coding exercises.
+
+Every line of code in coding exercise with exception of code comments should be 40 characters or less. Code comments in coding exercise should not be limited to 40 characters or less and can exceed 40 characters.
+
+Every coding exercise should end with 5 empty lines.
+
+Refer to argument of a function or mentod as "аргумент" instead of "параметр".
+
+When using tkiner in examples:
+* use `from tkinter import *`;
+* use `configure` method instead of changing object properties using indexing operator when possible;
+* assume only one window will be created - do not pass window to widgets unless necessary;
+* use `window` for name of window variable;
+* for setting window title use `title` method.
+* always leave empty line before `window.mainloop()`
+
+Use simple quotes (`"`) in article text instead of fancy ones like `“` and `”`.
+
+Do not use em dash - use "-" instead.
+
+When `❗` is used in coding exercise to denote place in code where student should write code to complete task and there is more than one such place in exercise, it sould be followed by ` X.` where `X` is the number of the task.

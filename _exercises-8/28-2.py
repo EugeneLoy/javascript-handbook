@@ -1,0 +1,19 @@
+# Створіть програму, що створює вікно
+# за допомогою tkinter та містить мітку
+# з написом що містить ваше ім'я.
+# 
+# Для виконання потрібно знати про:
+# https://tinyurl.com/49krw4bk
+# https://tinyurl.com/2s4d5nwy
+
+from tkinter import *
+
+window = Tk()
+window.geometry("150x50")
+
+# 🔴 додайте мітку з написом що містить
+#  ваше ім'я
+
+window.mainloop()
+
+
