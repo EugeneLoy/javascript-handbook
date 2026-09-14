@@ -19,6 +19,9 @@ Referer to "Coding exercise" as "практичне завдання" in ukraini
 All .md files should use GitHub Flavored Markdown (GFM).
 Use simple quotes (`"`) in article text instead of fancy ones like `“`, `”`, etc.
 Use `-` instead of em dash.
+Use bold italic (`***`) when introducing new terms.
+Use bold (`**`) to stress important words.
+Always use backticks to format JavasSript values/literals/names. 
 
 # Article files
 
