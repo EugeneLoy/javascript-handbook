@@ -23,6 +23,11 @@ Use bold italic (`***`) when introducing new terms.
 Use bold (`**`) to stress important words.
 Always use backticks to format JavasSript values/literals/names. 
 
+# Javascript usage
+
+Do not use `;` when possible.
+Use `let` instead of `var` for variables.
+
 # Article files
 
 All files referenced in `README.md` file are article files.
