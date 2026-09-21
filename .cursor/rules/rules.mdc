@@ -31,7 +31,8 @@ Use `let` instead of `var` for variables.
 # Article files
 
 All files referenced in `README.md` file are article files.
-Writing style and terminology should be consistent across all .md files. To ensure this, read at least 3  preceding articles before creating or editing article (refer to `README.md` for list).
+Writing style and terminology should be consistent across all .md files. To ensure this, read at least 3 preceding articles before creating or editing article (refer to `README.md` for list).
+Ignore all comments inside articles - they are notes/ideas related to further improvements are not relevant at this stage.
 
 ## Article types and structure
 
