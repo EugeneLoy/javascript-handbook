@@ -1,0 +1,23 @@
+flowchart TD
+    subgraph LITERALS[" "]
+      V1[2]
+      V2[3]
+      V3[4]
+    end
+
+    O1(+)
+    O1V[5]
+    O2(*)
+    O2V[20]
+
+    V1 --> O1
+    V2 --> O1
+    O1 --> O1V
+
+    O1V --> O2
+    V3 --> O2
+    O2 --> O2V
+
+style LITERALS fill:#0000, stroke:#0000
+classDef computed color:#069494
+class O1V,O2V computed
