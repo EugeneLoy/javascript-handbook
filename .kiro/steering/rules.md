@@ -1,0 +1,89 @@
+---
+inclusion: always
+---
+
+# Language
+
+All text in .md files is meant for ukrainian school students and should use ukrainian language.
+All text meassages that are printed in code examples should use ukrainian language.
+Refer to argument of a function or mentod as "аргумент" instead of "параметр" in ukrainian.
+Refer to "output" as "виведення" in ukrainian.
+Refer to flow diagram as "блок-схема".
+Prefer term "значення" over "дані" when referring to literals inside code.
+Referer to "Coding exercise" as "практичне завдання" in ukrainian.
+ 
+# Formatting
+
+All .md files should use GitHub Flavored Markdown (GFM).
+Use simple quotes (`"`) in article text instead of fancy ones like `“`, `”`, etc.
+Use `-` instead of em dash.
+Use bold italic (`***`) when introducing new terms.
+Use bold (`**`) to stress important words.
+Always use backticks to format JavasSript values/literals/names. 
+
+# Javascript usage
+
+Do not use `;` when possible.
+Use `let` instead of `var` for variables.
+
+# Article files
+
+All files referenced in `README.md` file are article files.
+Writing style and terminology should be consistent across all .md files. To ensure this, read at least 3 preceding articles before creating or editing article (refer to `README.md` for list).
+Ignore all comments inside articles - they are notes/ideas related to further improvements are not relevant at this stage.
+
+## Article types and structure
+
+Top level heading of every .md file should match it's filename.
+
+### New concept article
+
+Atricles that introduce new concept consist of theory ("Теоретичний матеріал") and coding exercise ("Практичне завдання") subsections.
+
+New concept articles are short, focused articles, explaining some aspect of JavaScript programming language.
+When describing new concept, give short and concise reason why and how this concept can be used.
+
+### Review article
+
+Articles that review previous material consist of review and coding exercise ("Практичне завдання") subsections.
+
+### Stand alone exercise
+
+Stand alone exercise contain references and "Практичне завдання" subsections.
+
+## Code examples
+
+Code examples should be simple yet meaningful (ideally, related to real life situations).
+When appropriate, code examples should be followed by execution results (console output, etc.).
+Blocks of code that contain JavaScript code should specify language for syntax highlighting.
+Code examples should use english names for variables/functions/classes.
+
+## Flow diagrams
+
+Generate flow diagrams only when explicitly asked.
+Flow diagrams should use oval nodes for "start" and "end".
+
+## Coding exercise
+
+Coding exercise section should end with several examples of meaningfuly different inputs/expected outputs. Start with simplest (or typical) example, then add more complex or edge cases (if applicable).
+If there is no text inputs, expected output or description of expected behaviour will suffice.
+
+<!-- When `❗` is used in coding exercise to denote place in code where student should write code to complete task and there is more than one such place in exercise, it sould be followed by ` X.` where `X` is the number of the task. -->
+
+## Special symbols and emojis
+
+Prepend `🧩` before therory heading text.
+Prepend `🎯` before coding exercise heading text.
+Prepend `⏪` before review heading text.
+Mark paragraphs explaining pitfall/warning/potentialy confuzing or other aspects that require special attention with `⚠️`.
+Mark coding exercise paragraphs that explain important constraints that are easy to miss with `⚠️`.
+Mark coding exercise paragraphs that give hints with `💡`.
+Whenever coding exercise is build around completing missing parts of starter code, add comments in code that expalin what needs to be done and prepend `❗` berore explanation.
+
+# Deprecated
+
+<!-- Every article lists all articles it depends on at the the top of the article. -->
+
+<!-- `Залежності.md` Contains mermaid chart that visualizes dependencies between articles. Arrows point from dependent article toward article it depends on. The more independent article is - the higher it is placed on the chart. The more dependencies article has - the lower it is on the chart. -->
+
+...
