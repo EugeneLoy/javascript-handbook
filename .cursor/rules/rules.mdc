@@ -21,9 +21,13 @@ Use simple quotes (`"`) in article text instead of fancy ones like `“`, `”`,
 Use `-` instead of em dash.
 Use bold italic (`***`) when introducing new terms.
 Use bold (`**`) to stress important words.
-Always use backticks to format JavasSript values/literals/names. 
+Always use backticks to format JavasScript values/literals/names.
 
-# Javascript usage
+# Math
+
+LaTex (KaTex) can be used to format math. Use single `$` for inline and doble `$$` for block math.
+
+# JavaScript usage
 
 Do not use `;` when possible.
 Use `let` instead of `var` for variables.
